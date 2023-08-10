@@ -12,42 +12,24 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
-
-
-	
-
-
-
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E79F2L0JBH"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'G-E79F2L0JBH');
-	</script>
-	
 </head>
+
+
+
 <body>
-
-
-
-
-<div class="top-header">
-	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+<header class="top-header">
+	<h1 class="name">Nina Carducci</h3>
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Lien pour accéder à instagram/"></a></li>
 		</ul>
-	</div>
-</div>
-<div id="header">
-
+	</nav>
+</header>
+<section id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -55,15 +37,15 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros.jpg" class="d-block w-100" alt="...">
-			</div>
+			<picture class="carousel-item active">
+				<img src="./assets/images/slider/ryoji-iwata.jpg" class="d-block w-100" alt="Homme de dos marchant sur un passage pieton, en costume avec un sac à la main"/>
+			</picture>
+			<picture class="carousel-item">
+				<img src="./assets/images/slider/nicholas-green.jpg" class="d-block w-100" alt="Foule de jeunes euphoriques qui assistent à un concert"/>
+			</picture>
+			<picture class="carousel-item">
+				<img src="./assets/images/slider/edward-cisneros.jpg" class="d-block w-100" alt="Couple de jeunes mariés s'embrassant au milieu d'une haie d'honneur"/>
+			</picture>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,44 +56,44 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
-<div id="about">
-	<div class="picture left">
-		<img src="./assets/images/nina.png">
-	</div>
-	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+</section>
+<aside id="about">
+	<picture class="picture left">
+		<img src="./assets/images/nina.png" alt="Portrait du photographe d'art Nina Carducci, artiste d'une vingtaine dannées"/>
+	</picture>
+	<article id="about-me">
+		<h2 class="about-me__title">A propos de moi</h2>
+		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-	</div>
-</div>
-<div id="gallery">
-	<h3 class="title">Portfolio</h3>
+		</article>
+</aside>
+<section id="gallery">
+	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.jpg"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.jpg"/>
-		</div>
+		<picture class="gallery" style="display: none">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.jpg" alt="Photo d'un concert sous chapiteau, entre pénombre et spots de lumières rouges"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.jpg" alt="Portrait d'un homme la trentaine en custume"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.jpg" alt="Deux collegues femmes au bureau qui rient"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.jpg" alt="Mains d'un homme et d'une femme qui se rejoignent"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.jpg" alt="Portrait d'un homme de couleur avec les yeux fermés"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.jpg" alt="Couple de jeunes mariés se tenant par la main devant un palmier, et la femme tenant un bouquet de fleurs"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.jpg" alt="Portrait d'une jeune femme d'une vingtaine dd'années devant un grillage"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.jpg" alt="Chanteur faisant le chiffre quatre avec ses doigts sur fond de fumée"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.jpg" alt="Femme la trentaine derriere un pc portable qui rie aux éclats"/>
+		</picture>
 	</div>
-	<div class="quote">
+	<article class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<cite class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</cite>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</div>
-</div>
-<div id="services">
-	<h3 class="title">Mes services</h3>
+	</article>
+</section>
+<section id="services">
+	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
@@ -119,8 +101,8 @@
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h4>350€/demi journée</h4>
-				<span>Matériel, déplacement inclus</span>
+				<h3>350€/demi journée</h3>
+				<p>Matériel, déplacement inclus</p>
 			</div>
 
 		</div>
@@ -130,8 +112,8 @@
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h4>50€/photo</h4>
-				<span>2 AR par photo</span>
+				<h3>50€/photo</h3>
+				<p>2 AR par photo</p>
 			</div>
 		</div>
 		<div class="service">
@@ -140,24 +122,24 @@
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h4>400€ album A4</h4>
-				<span>30 pages recto/verso</span>
+				<h3>400€ album A4</h4>
+				<p>30 pages recto/verso</p>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="quote">
+</section>
+<article class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<cite class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</cite>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-<div id="contact">
-	<div class="container">
-		<div class="form-container">
-			<h3>Une question ? Une demande de devis ?</h3>
+</article>
+<footer id="contact">
+	<hgroup class="container">
+		<address class="form-container">
+			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
 				<label>Nom</label>
@@ -168,11 +150,11 @@
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer"/>
 			</form>
-		</div>
-		<div class="picture right">
-			<img src="./assets/images/camera.png">
-		</div>
-	</div>
-</div>
+		</address>
+		<picture class="picture right">
+			<img src="./assets/images/camera.png" alt="Photo artistique d'un apareil photo analogique dans la pénombre"/>
+		</picture>
+	</hgroup>
+</footer>
 </body>
 </html>
