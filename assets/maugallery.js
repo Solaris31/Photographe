@@ -119,6 +119,8 @@
         .attr("src", element.attr("src"));
       $(`#${lightboxId}`).modal("toggle");
     },
+
+
     prevImage() {
       let activeImage = null;
       $("img.gallery-item").each(function () {
@@ -147,15 +149,13 @@
       }
       let index = 0,
         next = null;
-
       $(imagesCollection).each(function (i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
           index = i;
         }
       });
       next =
-        imagesCollection[index] ||
-        imagesCollection[imagesCollection.length - 1];
+        imagesCollection[index - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -165,6 +165,7 @@
           activeImage = $(this);
         }
       });
+
       let activeTag = $(".tags-bar span.active-tag").data("images-toggle");
       let imagesCollection = [];
       if (activeTag === "all") {
@@ -192,7 +193,7 @@
           index = i;
         }
       });
-      next = imagesCollection[index] || imagesCollection[0];
+      next = imagesCollection[index + 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     createLightBox(gallery, lightboxId, navigation) {
