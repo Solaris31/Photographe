@@ -295,11 +295,21 @@ input[type="submit"] {
 	#about-me p {
 		width: 100%;
 	}
+
+	#portrait {
+		max-width: 470px;
+		max-height: 469px;
+	}
 }
 
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
+	}
+
+	#portrait {
+		max-width: 400px;
+		max-height: 399px;
 	}
 
 	.picture {
@@ -388,6 +398,11 @@ input[type="submit"] {
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
+	}
+
+	#portrait {
+		max-width: 457px;
+		max-height: 455px;
 	}
 
 	.d-block {
