@@ -277,6 +277,10 @@ input[type="submit"] {
 		flex: 2;
 	}
 
+	.d-block {
+		max-width: 1180px;
+	}
+
 	#about,
 	#contact .container {
 		align-items: center;
@@ -300,10 +304,6 @@ input[type="submit"] {
 
 	.picture {
 		width: 50%;
-	}
-
-	.d-block {
-		max-width: 1180px;
 	}
 
 	.picture.left::before {
