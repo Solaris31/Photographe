@@ -57,6 +57,12 @@ body {
 	position: relative;
 }
 
+#portrait {
+	width: 470px;
+	height: 470px;
+}
+
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -406,8 +412,8 @@ input[type="submit"] {
 	}
 
 	#portrait {
-		max-width: 457px;
-		max-height: 455px;
+		max-width: 470px;
+		max-height: 470px;
 	}
 
 	.d-block {
