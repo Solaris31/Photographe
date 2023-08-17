@@ -26,7 +26,7 @@ body {
 }
 
 .top-header .name {
-	font-size: 26px;
+	font-size: 1.7em;
 }
 
 .nav ul {
@@ -98,7 +98,7 @@ body {
 
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 /* #gallery {
@@ -296,11 +296,14 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
-
 	}
 
 	.picture {
 		width: 50%;
+	}
+
+	.d-block {
+		max-width: 1180px;
 	}
 
 	.picture.left::before {
