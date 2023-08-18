@@ -58,8 +58,8 @@ body {
 }
 
 #portrait {
-	width: 470px;
-	height: 470px;
+	width: 464px;
+	height: 464px;
 }
 
 
@@ -289,6 +289,8 @@ input[type="submit"] {
 	}
 
 	.d-block {
+		width: 1180px;
+		height: 546px;
 		max-width: 1180px;
 	}
 
@@ -308,8 +310,10 @@ input[type="submit"] {
 	}
 
 	#portrait {
+		width: 470px;
+		height: 470px;
 		max-width: 470px;
-		max-height: 469px;
+		max-height: 470px;
 	}
 }
 
@@ -319,8 +323,10 @@ input[type="submit"] {
 	}
 
 	#portrait {
+		width: 400px;
+		height: 400px;
 		max-width: 400px;
-		max-height: 399px;
+		max-height: 400px;
 	}
 
 	.picture {
@@ -328,6 +334,8 @@ input[type="submit"] {
 	}
 
 	.d-block {
+		width: 1000px;
+		height: 546px;
 		max-width: 1000px;
 	}
 
@@ -412,11 +420,15 @@ input[type="submit"] {
 	}
 
 	#portrait {
+		width: 470px;
+		height: 470px;
 		max-width: 470px;
 		max-height: 470px;
 	}
 
 	.d-block {
+		width: 650px;
+		height: 546px;
 		max-width: 650px;
 	}
 
