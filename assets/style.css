@@ -316,6 +316,11 @@ input[type="submit"] {
 		max-width: 470px;
 		max-height: 470px;
 	}
+
+	.gallery-item {
+		width: 320px;
+		height: 320px;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -353,6 +358,11 @@ input[type="submit"] {
 	.about-me__title {
 		text-align: center;
 		margin-top: 1em;
+	}
+
+	.gallery-item {
+		width: 240px;
+		height: 240px;
 	}
 
 	#services .container {
@@ -432,6 +442,12 @@ input[type="submit"] {
 		height: 546px;
 		max-width: 650px;
 	}
+
+	.gallery-item {
+		width: 270px;
+		height: 270px;
+	}
+
 
 	#services .container {
 		align-items: center;
