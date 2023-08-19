@@ -162,6 +162,10 @@ body {
 	padding: .5em;
 }
 
+.gallery-item:hover {
+	cursor: pointer;
+}
+
 .mg-prev,
 .mg-next {
 	width: 30px;
