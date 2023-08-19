@@ -159,7 +159,7 @@ h4,
   font-size: calc(1.275rem + 0.3vw);
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
 
   h4,
   .h4 {
@@ -175,7 +175,7 @@ h5,
 h6,
 .h6 {
   font-size: 1rem;
-} */
+}
 
 p {
   margin-top: 0;
@@ -4462,10 +4462,6 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
-.nav-link:hover {
-  cursor: pointer;
-}
-
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -4537,7 +4533,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #0d6efd;
+  /* background-color: #0d6efd; */
 }
 
 .nav-fill>.nav-link,
