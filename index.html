@@ -7,11 +7,11 @@
 	<meta name="robots" content="all">
 
 
-	<link async rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link async rel="stylesheet" href="./assets/style.css">
-	<link async rel="preconnect" href="https://fonts.googleapis.com">
-	<link async rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link async rel="stylesheet" rel="preconnect" aria-disabled="disabled" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 	<link rel="icon" type="image/png" href="./assets/images/IconePhotographe.png">
 	<title>Nina Carducci - Phototographe à Bordeaux et Ile-de-France : spécialiste de la photo d'art, pour tout type d'évenement, photo de mariage, portrait... Et meme retouche photo</title>
 </head>
@@ -54,16 +54,22 @@
 		</div>
 		<div class="carousel-inner">
 			<picture class="carousel-item active">
-				<img  class="d-block w-100" src="./assets/images/slider/ryoji-iwata-grand.jpg 1180w"
-					srcset="./assets/images/slider/ryoji-iwata-petit.jpg 650w, ./assets/images/slider/ryoji-iwata-grand.jpg 1180w" sizes="(max-width:650px) 650px, 1180px" alt="Homme de dos marchant sur un passage pieton, en costume avec un sac à la main">
+				<img  class="d-block w-100" src="./assets/images/slider/ryoji-iwata-grand.jpg" 
+					srcset="./assets/images/slider/ryoji-iwata-petit.jpg 650w, ./assets/images/slider/ryoji-iwata-grand.jpg 1180w" 
+					sizes="(max-width:650px) 650px, 1180px" 
+					alt="Homme de dos marchant sur un passage pieton, en costume avec un sac à la main">
 			</picture>
 			<picture class="carousel-item">
-				<img  class="d-block w-100" src="./assets/images/slider/nicholas-green-grand.jpg 1180w"
-					srcset="./assets/images/slider/nicholas-green-petit.jpg 650w, ./assets/images/slider/nicholas-green-grand.jpg 1180w" sizes="(max-width:650px) 650px, 1180px" alt="Foule de jeunes euphoriques qui assistent à un concert">
+				<img  class="d-block w-100" src="./assets/images/slider/nicholas-green-grand.jpg"
+					srcset="./assets/images/slider/nicholas-green-petit.jpg 650w, ./assets/images/slider/nicholas-green-grand.jpg 1180w" 
+					sizes="(max-width:650px) 650px, 1180px" 
+					alt="Foule de jeunes euphoriques qui assistent à un concert">
 			</picture>
 			<picture class="carousel-item">
-				<img class="d-block w-100" src="./assets/images/slider/edward-cisneros-grand.jpg 1180w"
-					srcset="./assets/images/slider/edward-cisneros-petit.jpg 650w, ./assets/images/slider/edward-cisneros-grand.jpg 1180w" sizes="(max-width:650px) 650px, 1180px" alt="Couple de jeunes mariés s'embrassant au milieu d'une haie d'honneur">
+				<img class="d-block w-100" src="./assets/images/slider/edward-cisneros-grand.jpg"
+					srcset="./assets/images/slider/edward-cisneros-petit.jpg 650w, ./assets/images/slider/edward-cisneros-grand.jpg 1180w" 
+					sizes="(max-width:650px) 650px, 1180px" 
+					alt="Couple de jeunes mariés s'embrassant au milieu d'une haie d'honneur">
 			</picture>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -79,7 +85,11 @@
 
 <aside id="about">
 	<picture class="picture left">
-		<img id="portrait" src="./assets/images/nina-grand.png" srcset="./assets/images/nina-petit.png" alt="Portrait du photographe d'art Nina Carducci, artiste d'une vingtaine dannées">
+		<img id="portrait" 
+			src="./assets/images/nina-grand.png" 
+			srcset="./assets/images/nina-petit.png 470w, ./assets/images/nina-grand.png 750w" 
+			sizes="(max-width: 650px) 470px, 750px"
+			alt="Portrait du photographe d'art Nina Carducci, artiste d'une vingtaine dannées">
 	</picture>
 	<article id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -92,9 +102,21 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-grand.jpg" srcset="./assets/images/gallery/concerts/aaron-paul-petit.jpg" alt="Photo d'un concert sous chapiteau, entre pénombre et spots de lumières rouges">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-grand.jpg" srcset="./assets/images/gallery/entreprise/ali-morshedlou-petit.jpg" alt="Portrait d'un homme la trentaine en custume">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-grand.jpg" srcset="./assets/images/gallery/entreprise/jason-goodman-petit.jpg" alt="Deux collegues femmes au bureau qui rient">
+			<img data-gallery-tag="Concert" class="gallery-item" 
+				src="./assets/images/gallery/concerts/aaron-paul-grand.jpg" 
+				srcset="./assets/images/gallery/concerts/aaron-paul-petit.jpg 650w, ./assets/images/gallery/concerts/aaron-paul-grand.jpg 1180w"
+				sizes="(max-width: 650px) 650px, 1180px"
+				alt="Photo d'un concert sous chapiteau, entre pénombre et spots de lumières rouges">
+			<img data-gallery-tag="Entreprises" class="gallery-item" 
+				src="./assets/images/gallery/entreprise/ali-morshedlou-grand.jpg" 
+				srcset="./assets/images/gallery/entreprise/ali-morshedlou-petit.jpg 650w, ./assets/images/gallery/entreprise/ali-morshedlou-grand.jpg 1180w"
+				sizes="(max-width: 650px) 650px, 1180px"
+				alt="Portrait d'un homme la trentaine en custume">
+			<img data-gallery-tag="Entreprises" class="gallery-item" 
+				src="./assets/images/gallery/entreprise/jason-goodman-grand.jpg" 
+				srcset="./assets/images/gallery/entreprise/jason-goodman-petit.jpg 650w, ./assets/images/gallery/entreprise/jason-goodman-grand.jpg 1180w"
+				sizes="(max-width: 650px) 650px, 1180px"
+				alt="Deux collegues femmes au bureau qui rient">
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-grand.jpg" srcset="./assets/images/gallery/mariage/hannah-busing-petit.jpg" alt="Mains d'un homme et d'une femme qui se rejoignent">
 			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-grand.jpg" srcset="./assets/images/gallery/portraits/ade-tunji-petit.jpg" alt="Portrait d'un homme de couleur avec les yeux fermés">
 			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-grand.jpg" srcset="./assets/images/gallery/mariage/jakob-owens-petit.jpg" alt="Couple de jeunes mariés se tenant par la main devant un palmier, et la femme tenant un bouquet de fleurs">
