@@ -7,7 +7,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  /* --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -54,7 +54,7 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
+  --bs-body-font-weight: 400; */
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
@@ -159,7 +159,7 @@ h4,
   font-size: calc(1.275rem + 0.3vw);
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 
   h4,
   .h4 {
@@ -175,7 +175,7 @@ h5,
 h6,
 .h6 {
   font-size: 1rem;
-}
+} */
 
 p {
   margin-top: 0;
@@ -8893,7 +8893,7 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
   }
@@ -12211,6 +12211,6 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-}
+} */
 
 /*# sourceMappingURL=bootstrap.css.map */
