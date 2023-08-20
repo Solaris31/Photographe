@@ -91,8 +91,8 @@ body {
 }
 
 .picture img {
-	width: 470px;
-	height: 470px;
+	width: 300px;
+	height: 300px;
 }
 
 #about-me {
@@ -113,7 +113,7 @@ body {
 }
 
 #about-me p {
-	width: 80%;
+	width: 100%;
 	font-size: 18px;
 }
 
@@ -155,7 +155,6 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 
 .gallery-item {
@@ -296,6 +295,15 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+@media all and (max-width: 1600px) {
+	.service {
+		background-color: white;
+		max-width: 390px;
+		width: 30%;
+		height: 450px;
+	}
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -352,7 +360,8 @@ input[type="submit"] {
 	}
 
 	.picture {
-		width: 50%;
+		width: 100%;
+		height: 100%;
 	}
 
 	.d-block {
@@ -485,5 +494,18 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+	}
+}
+
+@media all and (max-width: 580px) {
+	.item-column {
+		display: flex;
+		justify-content: center;
+	}
+
+	.item-column::after {
+		content: "";
+		display: block;
+		padding-bottom: 47%;
 	}
 }
