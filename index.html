@@ -93,7 +93,7 @@
 <aside id="about">
 	<picture class="picture left">
 		<img id="portrait"
-			title="Nina Carducci, photographe"
+			title="Nina Carducci, Photographe"
 			src="./assets/images/nina-grand.avif"
 			srcset="./assets/images/nina-petit.avif 470w, ./assets/images/nina-grand.avif 750w" 
 			sizes="(max-width: 650px) 470px, 750px"
@@ -232,7 +232,10 @@
 			</address>
 		</div>
 		<picture class="picture right">
-			<img src="./assets/images/camera.avif" alt="Photo artistique d'un vieil appareil photo analogique dans la pénombre">
+			<amp-img src="./assets/images/camera.avif"
+				alt="Photo artistique d'un vieil appareil photo analogique dans la pénombre"
+				height="300px"
+				width="300px">
 		</picture>
 	</section>
 </footer>
@@ -241,5 +244,6 @@
 <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
 <script defer src="./assets/maugallery.js"></script>
 <script defer src="./assets/scripts.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
 </body>
 </html>
